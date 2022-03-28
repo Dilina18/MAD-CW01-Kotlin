@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">EXPRESSION SOLVER</string>
+    <string name="new_game">New Game</string>
+    <string name="about">About</string>
+    <string name="popup_btn_txt">Got It !</string>
+    <string name="popup_txt">
+        I confirm that I understand what plagiarism is and have read and
+        understood the section on Assessment Offences in the Essential
+        Information for Students. The work that I have submitted is
+        entirely my own. Any work from other authors is duly referenced
+        and acknowledged.
+    </string>
+    <string name="popup_my_name">Name - Dilina Edirisinghe</string>
+    <string name="popup_my_id">StudentID - 20200520</string>
+    <string name="greater_btn_txt">GREATER</string>
+    <string name="less_btn_txt">LESS</string>
+    <string name="equal_btn_txt">==</string>
+    <string name="msg_label_txt">LAST ATTEMPT :</string>
+    <string name="left_exp_label">Given Expression</string>
+    <string name="exp_right_label">Expression To Compare</string>
+    <string name="txt_timer">50</string>
+    <string name="txt_exp1">Expression 1</string>
+    <string name="txt_exp2">Expression 2</string>
+    <string name="label_correct">Correct Answers</string>
+    <string name="txt_correct">0</string>
+    <string name="label_incorrect">Incorrect Answers</string>
+    <string name="txt_incorrect">0</string>
+    <string name="history">History</string>
+    <string name="head_topic">Expression Solver !</string>
+    <string name="alert_txt">
+        " You will be given 50 seconds\n"
+        "\n"
+        "You should answer based on left"
+        "expression\n"
+        "\n"
+        "Extra 10 seconds will be awarded for each 5 correct answers\n"
+        "\n"
+        "You will be given 2 random expressions\n"
+        "\n"
+        "Difficulty level will be change randomly\n"
+    </string>
+    <string name="game_running_txt">Are you sure you want to Quite?</string>
+    <string name="labelCorrect">Correct!</string>
+    <string name="labelWrong">Wrong!</string>
+    <string name="labelGO">Game Over!</string>
+    <string name="txt_instructions">Instructions</string>
+    <string name="txt_instruction_land">i</string>
+
+</resources>
+

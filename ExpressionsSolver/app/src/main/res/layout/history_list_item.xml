@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentCard"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_marginTop="10dp"
+    app:cardBackgroundColor="@color/accent2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtGrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Excellent!"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/imgGrade"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_below="@+id/txtGrade"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/gold_ic" />
+
+        <TextView
+            android:id="@+id/labelAverage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Average :"
+            android:textColor="@color/black"
+            android:layout_below="@+id/imgGrade"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/txtAverage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100%"
+            android:textColor="@color/black"
+            android:layout_below="@+id/imgGrade"
+            android:layout_toEndOf="@+id/labelAverage"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="80dp"/>
+
+
+        <TextView
+            android:id="@+id/labelTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time :"
+            android:textColor="@color/black"
+            android:layout_below="@+id/labelAverage"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/txtTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50 Seconds"
+            android:textColor="@color/black"
+            android:layout_below="@+id/txtAverage"
+            android:layout_toEndOf="@+id/labelTime"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="60dp"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

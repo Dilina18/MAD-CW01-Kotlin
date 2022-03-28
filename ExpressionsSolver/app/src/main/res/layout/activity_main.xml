@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textColor="@color/accent1"
+        android:textStyle="bold"
+        android:fontFamily="@font/amsterdam"
+        android:translationZ="1dp"
+        android:text="@string/head_topic"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_logo"
+        android:scaleType="centerCrop"
+        android:translationZ="1dp"/>
+
+    <FrameLayout
+        android:id="@+id/main_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/main_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/main_background"
+            android:scaleType="centerCrop"/>
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/btnNewGame"
+        android:text="@string/new_game"
+        android:textStyle="bold|italic"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/accent1"
+        android:background="@drawable/button_bg"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/btnInstruction"
+        android:text="@string/txt_instructions"
+        android:layout_below="@+id/btnNewGame"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold|italic"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/accent1"
+        android:background="@drawable/button_bg"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnInstruction"
+        android:layout_marginTop="15dp"
+        android:text="@string/history"
+        android:textStyle="bold|italic"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:id="@+id/btnHistory"
+        android:textColor="@color/accent1"
+        android:background="@drawable/button_bg"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnHistory"
+        android:layout_marginTop="15dp"
+        android:text="@string/about"
+        android:textStyle="bold|italic"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:id="@+id/btnAbout"
+        android:textColor="@color/accent1"
+        android:background="@drawable/button_bg"/>
+
+</RelativeLayout>

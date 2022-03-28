@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9D4C5"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtPopUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/popup_txt"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtPopUp"
+        android:layout_marginTop="10dp"
+        android:text="@string/popup_my_name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_centerHorizontal="true"
+        android:text="@string/popup_my_id"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+    <Button
+        android:id="@+id/btnPopUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtId"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_bg"
+        android:textStyle="bold"
+        android:textColor="@color/accent1"
+        android:text="@string/popup_btn_txt"
+        android:textAllCaps="false"
+        />
+
+</RelativeLayout>
+
