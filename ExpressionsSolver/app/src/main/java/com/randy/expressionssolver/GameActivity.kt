@@ -31,7 +31,7 @@ class GameActivity : AppCompatActivity() {
     private lateinit var btnLess: Button
     private lateinit var resultLayout: RelativeLayout
     private lateinit var timeLeftFormatted:String
-    private lateinit var alertDialog:AlertDialog
+    private var alertDialog:AlertDialog? = null
     private var timer: CountDownTimer? = null
 
     // initialize class variables
@@ -348,7 +348,7 @@ class GameActivity : AppCompatActivity() {
             override fun onFinish() {
                 setGameOver()
                 isGameOver = true
-                alertDialog.dismiss()
+                alertDialog?.dismiss()
                 isAlert = false
                 saveOnFinish() // calling function to save game data
             }
