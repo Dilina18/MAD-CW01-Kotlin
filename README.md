@@ -1,4 +1,4 @@
-# MAD-CW01-Kotlin
+# Expression Solver
 This repo contains files for the project that was completed for Coursework 01 of the Mobile Application Development Module in the 2nd year at IIT. The developed application is a game which players will be using to practice their arithmetic calculative skills.
 
 ![main](https://user-images.githubusercontent.com/86507448/160458668-54dc920f-06f9-4320-bdbf-0b8fbda2979f.png)
